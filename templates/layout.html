@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title class="center">ITU SMART CAMPUS PLATFORM</title>
+   
+</head>
+<script>
+    function MyDate(){
+        var date = new Date();
+        var hour = date.getHours()
+        if (hour < 6 || hour > 20){
+            console.log("night")
+            document.body.style.backgroundImage = "url('/static/itu_night.jpg')";
+        }
+        else if(hour < 20 && hour > 15){
+            console.log("lib")
+            document.body.style.backgroundImage = "url('/static/itu_library.jpg')";
+        }
+        else{
+            console.log("day")
+            document.body.style.backgroundImage = "url('/static/itu_day.jpg')";
+        }
+    }
+</script>
+<style>
+    html, body ,ul{
+        margin: 0;
+    }
+    
+    ul{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin: 0;
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        background-color: green;
+        z-index: 1;
+    }
+    li{
+        float: left;
+    }
+    li a{
+        font-family:Arial, Helvetica, sans-serif;
+        color:white;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover{
+        background-color: darkgreen;
+    }
+    .ignore-css{
+        all:unset;
+    }
+    .w3-container{
+        margin-top: 70px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        z-index: -1;
+        background-color: ghostwhite;
+        opacity: 0.85;
+    }
+    a{
+        color:white;
+        text-decoration: none;
+    }
+    
+    body{
+        background-image: url('/static/itu_day.jpg') ;
+        background-size: 100%; 
+    }
+    footer{
+        position: fixed;
+        opacity:0.8;
+        color:ghostwhite;
+        height: 30px;
+        bottom: 0px;
+        width: 100%;
+        text-align: center;
+        z-index: -2;
+    } 
+   
+</style>
+<header> 
+    <ul>
+        <li style="float:left"><a href="/" class="ignore-css"><img src="/static/ITU_LOGO.png" width="160" height="45" style="float:left; margin-left: 10px; margin-right: 50px;"></a></li>
+        <li><a href="/air_quality/">Air Quality</a></li>
+        <li><a>Crowd Localization</a></li>
+        <li><a>Animal Localization</a></li>
+        <li><a>Smart Lightning</a></li>
+        <li><a>Smart Acoustics</a></li>
+        <li><a>Smart Bicycle</a></li>
+        <li style="float:right" style="margin-right: 15px;"><a>Login</a></li>
+      </ul>
+    
+</header>
+    
+<body onload="MyDate()"> 
+    {% block content %}{% endblock content %}
+    
+</body>
+
+<footer>
+    © 2020 Copyright:
+        <a href="{{url_for('home_page') }}"> ITU SMART CAMPUS PLATFORM</a>
+</footer>
+</html>
