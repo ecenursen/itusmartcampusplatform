@@ -1,0 +1,152 @@
+#map{
+    position: absolute;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+    z-index: 1;
+}
+li{
+    float: left;
+}
+li a{
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: darkgreen;
+}
+.ignore-css{
+    all:unset;
+}
+
+body .w3-container{
+    overflow: visible;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    z-index: -1;
+    background-color: ghostwhite;
+    opacity: 0.9;
+}
+
+body .w3-container #map{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 70%;
+    width: 80%;
+    opacity: 1;
+    
+}
+
+body .w3-container .authentication_manager .login-form{
+
+        all: unset;
+        font-size: medium;
+        
+}
+body .w3-container .authentication_manager .login-form button{
+    margin-bottom: 15px;
+}
+
+body .w3-container table tr td{
+    width: 30%;
+}
+
+body .w3-container #time-select{
+
+    opacity: 1;
+
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+body .w3-container #time-select input[type=button]{
+    color: white;
+    background-color: darkgreen;
+    width: 260px;
+    text-align: center;
+}
+
+body .w3-container #time-select input[type=button]:focus{
+    background-color: green;
+}
+
+body .w3-container #time-select{
+
+    opacity: 1;
+
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+body .w3-container #day-time{
+
+    opacity: 1;
+
+    margin-top: 510px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+body .w3-container #day-time input[type=button]{
+    color: white;
+    background-color: darkgreen;
+    width: 340px;
+    text-align: center;
+}
+
+body .w3-container #day-time input[type=button]:focus{
+    background-color: green;
+}
+
+body .w3-container #barchart{
+    opacity: 1;
+
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+body{
+    background-color: azure;
+    background-size: 100%; 
+}
+footer{
+    position: fixed;
+    opacity:0.8;
+    color:ghostwhite;
+    height: 30px;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    z-index: -2;
+} 

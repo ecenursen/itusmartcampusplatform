@@ -1,0 +1,187 @@
+body .w3-container #regression{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    width: 90%;
+    height: 500px;
+}
+
+body .w3-container #comparison{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+    width: 90%;
+    height: 500px;
+}
+
+body .w3-container #bars{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    width: 90%;
+    height: 500px;
+}
+
+body .w3-container #pies{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    width: 90%;
+    height: 500px;
+}
+
+body .w3-container #pies #pie_1{
+    width: 500px;
+    height: 500px;
+}
+
+body .w3-container #pies #pie_2{
+    width: 500px;
+    height: 500px;
+}
+
+body .w3-container #information {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+body .w3-container #error_msg {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    width: 100%;
+    color:red;
+}
+
+
+body .w3-container #charts_overview {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+body .w3-container #charts_overview #scatter{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+body .w3-container #charts_overview #scatter #regression_small{
+    width: 500px;
+}
+
+body .w3-container #charts_overview #scatter #comparison_small{
+    margin-left: 10px;
+    width: 500px;
+}
+
+body .w3-container #charts_overview #bar_pie{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+body .w3-container #charts_overview #bar_pie #bar_small{
+    width: 500px;
+}
+
+body .w3-container #charts_overview #bar_pie #pie_small_1{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 250px;
+}
+
+body .w3-container #charts_overview #bar_pie #pie_small_2{
+    width: 250px;
+}
+
+body .w3-container #general_information {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+body .w3-container #manager_input_selection #time_interval_selection{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    width: 80%;
+}
+
+body .w3-container #manager_input_selection #time_interval_selection #second_time_interval{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+body .w3-container #manager_input_selection #time_interval_selection input[type=date]{
+    width: 20%;
+}
+
+body .w3-container #manager_input_selection #input_data_selection{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+body .w3-container #manager_input_selection #input_data_1_selection{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+body .w3-container #manager_input_selection #input_data_2_selection{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+body .w3-container #manager_input_selection #input_data_optional_selection{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+body .w3-container #manager_input_selection input[type=submit]{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    width: 90%;
+    color: white;
+    background-color: darkgreen;
+}
+
+body .w3-container #manager_input_selection input[type=button]{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    color: white;
+    background-color: darkgreen;
+}
+
+

@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="w3-container" >
+   <div class="authentication_manager">
+    <form class = "login-form" method="POST" action ="/login">
+        <div class="container">
+          <h1>Manager App Authentication</h1>
+          {% if error != None %}
+          <p style="color:red">{{ error }}</p>
+          {% endif %}
+          <p>Enter your credentials.</p>
+          <hr>
+      
+          <label for="username"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="username" id="username" required><br/>
+      
+          <label for="password"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="password" id="password" required><br/>
+      
+          <hr>
+          <input type="submit" class="registerbtn"></input>
+        </div>
+        
+      </form>
+   </div>
+</div>
+{% endblock content %}

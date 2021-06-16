@@ -1,1 +1,1 @@
-web: gunicorn server:app gettingstarted.wsgi --timeout 15 --keep-alive 5 --log-level debug
+web: gunicorn server:app gettingstarted.wsgi --log-file -
